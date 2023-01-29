@@ -1,4 +1,9 @@
-﻿string[] names; // can reference any size array of strings
+﻿using static System.Console;
+
+Console.WriteLine("Kristen Clifford");
+Console.WriteLine("Version: {0}", Environment.Version.ToString());
+
+string[] names; // can reference any size array of strings
 
 // allocating memory for four strings in an array
 names = new string[4];
@@ -71,10 +76,10 @@ for (int row = 0; row <= jagged.GetUpperBound(0); row++)
 
 // Pattern matching with arrays
 
-int[] sequentialNumbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-int[] oneTwoNumbers = new int[] { 1, 2 };
-int[] oneTwoTenNumbers = new int[] { 1, 2, 10 };
-int[] oneTwoThreeTenNumbers = new int[] { 1, 2, 3, 10 };
+int[] sequentialNumbers = new int[] { 10, 20, 30, 40, 50, 60, 70, 80, 90, 10 };
+int[] oneTwoNumbers = new int[] { 3, 4 };
+int[] oneTwoTenNumbers = new int[] { 5, 6, 30 };
+int[] oneTwoThreeTenNumbers = new int[] { 8, 9, 5, 15 };
 int[] primeNumbers = new int[] { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 };
 int[] fibonacciNumbers = new int[] { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 };
 int[] emptyNumbers = new int[] { };
@@ -104,3 +109,5 @@ static string CheckSwitch(int[] values) => values switch
   [2, .. int[] others] => $"Starts with 2, then {others.Length} more numbers.",
   [..] => "Any items in any order.",
 };
+
+

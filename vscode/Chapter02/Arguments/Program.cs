@@ -30,3 +30,11 @@ catch (PlatformNotSupportedException)
 {
   WriteLine("The current platform does not support changing the size of the cursor.");
 }
+ catch (ArgumentOutOfRangeException)
+        {
+            WriteLine("There is no index 2 in args array");
+        }
+        catch (Exception)
+        {
+            WriteLine("Every other exception will be caught here");
+        }

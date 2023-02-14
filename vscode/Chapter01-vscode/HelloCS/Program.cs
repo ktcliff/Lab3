@@ -1,4 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, C#!");
-throw new Exception();
-int z;
+﻿
+for (int i = 0; i < 7; i++) {
+
+
+Console.WriteLine("Hello, C#! \nKristen Clifford\nVersion: {0}", Environment.Version.ToString());
+
+}

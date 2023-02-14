@@ -1,0 +1,12 @@
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\bin\Debug\net7.0\MyRootLib.deps.json
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\bin\Debug\net7.0\MyRootLib.dll
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\bin\Debug\net7.0\MyRootLib.pdb
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\obj\Debug\net7.0\MyRootLib.csproj.AssemblyReference.cache
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\obj\Debug\net7.0\MyRootLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\obj\Debug\net7.0\MyRootLib.AssemblyInfoInputs.cache
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\obj\Debug\net7.0\MyRootLib.AssemblyInfo.cs
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\obj\Debug\net7.0\MyRootLib.csproj.CoreCompileInputs.cache
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\obj\Debug\net7.0\MyRootLib.dll
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\obj\Debug\net7.0\refint\MyRootLib.dll
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\obj\Debug\net7.0\MyRootLib.pdb
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter04\MyRootLib\obj\Debug\net7.0\ref\MyRootLib.dll

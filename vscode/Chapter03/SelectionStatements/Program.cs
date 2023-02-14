@@ -73,6 +73,7 @@ foreach (Animal? animal in animals)
       break;
     case Cat cat:
       message = $"The cat is named {cat.Name}.";
+      goto B_label;
       break;
     default: // default is always evaluated last
       message = $"The animal named {animal.Name} is a {animal.GetType().Name}.";
@@ -85,8 +86,9 @@ foreach (Animal? animal in animals)
       break;
   }
   WriteLine($"switch statement: {message}");
-  
+  B_label:
   message = animal switch
+
   {
     Cat fourLeggedCat when fourLeggedCat.Legs == 4
       => $"The cat named {fourLeggedCat.Name} has four legs.",

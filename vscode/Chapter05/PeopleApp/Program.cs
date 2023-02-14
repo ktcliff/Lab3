@@ -22,6 +22,7 @@ Person alice = new()
   DateOfBirth = new(1998, 3, 7) // C# 9.0 or later
 };
 
+
 WriteLine(format: "{0} was born on {1:dd MMM yy}",
   arg0: alice.Name,
   arg1: alice.DateOfBirth);
@@ -157,7 +158,7 @@ WriteLine(sam.Greeting);
 WriteLine(sam.Age);
 
 sam.FavoriteIceCream = "Chocolate Fudge";
-WriteLine($"Sam's favorite ice-cream flavor is {sam.FavoriteIceCream}.");
+WriteLine($"Kristen's favorite ice-cream flavor is {sam.FavoriteIceCream}.");
 
 string color = "Black";
 
@@ -170,6 +171,32 @@ catch (Exception ex)
 {
   WriteLine("Tried to set {0} to '{1}': {2}",
     nameof(sam.FavoritePrimaryColor), color, ex.Message);
+}
+
+Person kristen = new()
+{
+  Name = "Kristen",
+  DateOfBirth = new(2000, 5, 18)
+};
+
+WriteLine(kristen.Origin);
+WriteLine(kristen.Greeting);
+WriteLine(kristen.Age);
+
+kristen.FavoriteIceCream = "Chocolate Fudge";
+WriteLine($"Kristen's favorite ice-cream flavor is {kristen.FavoriteIceCream}.");
+
+string colorblue = "Blue";
+
+try
+{
+  kristen.FavoritePrimaryColor = colorblue;
+  WriteLine($"Kristen's favorite primary color is {kristen.FavoritePrimaryColor}.");
+}
+catch (Exception ex)
+{
+  WriteLine("Tried to set {0} to '{1}': {2}",
+    nameof(kristen.FavoritePrimaryColor), colorblue, ex.Message);
 }
 
 /*
@@ -202,6 +229,22 @@ WriteLine($"Sam's second child is {sam[1].Name}.");
 
 // get using name indexer
 WriteLine($"Sam's child named Ella is {sam["Ella"].Age} years old.");
+
+
+kristen.Children.Add(new() { Name = "Charlie", DateOfBirth = new(2010, 3, 18) });
+kristen.Children.Add(new() { Name = "Ella", DateOfBirth = new(2020, 12, 24) });
+
+// get using Children list
+WriteLine($"Kristen's first child is {kristen.Children[0].Name}.");
+WriteLine($"Kristen's second child is {kristen.Children[1].Name}.");
+
+// get using integer position indexer
+WriteLine($"Kristen's first child is {kristen[0].Name}.");
+WriteLine($"Kristen's second child is {kristen[1].Name}.");
+
+
+// get using name indexer
+WriteLine($"Kristen's child named Ella is {kristen["Ella"].Age} years old.");
 
 // Implementing functionality using methods
 

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5T8q+DioACFOt+0RnEx2LPGnDbimjYwZqOyhP+VF7tu0ixlX4R3kEJEMCFXVlDZO6Ctn+t8GLoNb0WEuNzyOgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ktcli\\Repos\\cs11dotnet7\\vscode\\Chapter05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ktcli\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ktcli\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\bin\Debug\netstandard2.0\PacktLibraryNetStandard2.deps.json
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\bin\Debug\netstandard2.0\PacktLibraryNetStandard2.dll
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\bin\Debug\netstandard2.0\PacktLibraryNetStandard2.pdb
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\obj\Debug\netstandard2.0\PacktLibraryNetStandard2.csproj.AssemblyReference.cache
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\obj\Debug\netstandard2.0\PacktLibraryNetStandard2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\obj\Debug\netstandard2.0\PacktLibraryNetStandard2.AssemblyInfoInputs.cache
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\obj\Debug\netstandard2.0\PacktLibraryNetStandard2.AssemblyInfo.cs
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\obj\Debug\netstandard2.0\PacktLibraryNetStandard2.csproj.CoreCompileInputs.cache
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\obj\Debug\netstandard2.0\PacktLibraryNetStandard2.dll
+C:\Users\ktcli\Repos\cs11dotnet7\vscode\Chapter05\PacktLibraryNetStandard2\obj\Debug\netstandard2.0\PacktLibraryNetStandard2.pdb
